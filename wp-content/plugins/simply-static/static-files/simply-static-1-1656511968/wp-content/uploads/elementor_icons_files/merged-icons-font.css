@@ -1,0 +1,49 @@
+i.eci { 
+display: block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+     }
+     .select2-container i.eci,
+     .elementor-icon-list-icon i.eci {
+       display: inline-block;
+     }
+     .elementor-icons-manager__tab__item__icon.eci {
+    font-size: 28px;
+}
+.elementor-icons-manager__tab-link i.eci {
+    display: inline-block;
+    font-size: 18px;
+}
+@font-face {
+ font-family: 'fontello-85ce6f6e';
+  src: url('https://terencesharaz.github.io/site/wp-content/uploads/elementor_icons_files/fontello-85ce6f6e.zip/fontello-85ce6f6e/font/fontello.eot?381517249');
+  src: url('https://terencesharaz.github.io/site/wp-content/uploads/elementor_icons_files/fontello-85ce6f6e.zip/fontello-85ce6f6e/font/fontello.eot?381517249#iefix') format('embedded-opentype'),
+       url('https://terencesharaz.github.io/site/wp-content/uploads/elementor_icons_files/fontello-85ce6f6e.zip/fontello-85ce6f6e/font/fontello.woff2?381517249') format('woff2'),
+       url('https://terencesharaz.github.io/site/wp-content/uploads/elementor_icons_files/fontello-85ce6f6e.zip/fontello-85ce6f6e/font/fontello.woff?381517249') format('woff'),
+       url('https://terencesharaz.github.io/site/wp-content/uploads/elementor_icons_files/fontello-85ce6f6e.zip/fontello-85ce6f6e/font/fontello.ttf?381517249') format('truetype'),
+       url('https://terencesharaz.github.io/site/wp-content/uploads/elementor_icons_files/fontello-85ce6f6e.zip/fontello-85ce6f6e/font/fontello.svg?381517249#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.eci.fontello-85ce6f6e-powerplatform1::before { content: '\e800'; font-family: 'fontello-85ce6f6e'; }
+.eci.fontello-85ce6f6e-powerplatform::before { content: '\e801'; font-family: 'fontello-85ce6f6e'; }
+
+
+@font-face {
+ font-family: 'fontello-d12e2005';
+  src: url('https://terencesharaz.github.io/site/wp-content/uploads/elementor_icons_files/fontello-d12e2005.zip/fontello-d12e2005/font/fontello.eot?784668443');
+  src: url('https://terencesharaz.github.io/site/wp-content/uploads/elementor_icons_files/fontello-d12e2005.zip/fontello-d12e2005/font/fontello.eot?784668443#iefix') format('embedded-opentype'),
+       url('https://terencesharaz.github.io/site/wp-content/uploads/elementor_icons_files/fontello-d12e2005.zip/fontello-d12e2005/font/fontello.woff2?784668443') format('woff2'),
+       url('https://terencesharaz.github.io/site/wp-content/uploads/elementor_icons_files/fontello-d12e2005.zip/fontello-d12e2005/font/fontello.woff?784668443') format('woff'),
+       url('https://terencesharaz.github.io/site/wp-content/uploads/elementor_icons_files/fontello-d12e2005.zip/fontello-d12e2005/font/fontello.ttf?784668443') format('truetype'),
+       url('https://terencesharaz.github.io/site/wp-content/uploads/elementor_icons_files/fontello-d12e2005.zip/fontello-d12e2005/font/fontello.svg?784668443#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.eci.fontello-d12e2005-powerplatfom-1::before { content: '\e800'; font-family: 'fontello-d12e2005'; }
+.eci.fontello-d12e2005-powerplatfom::before { content: '\e801'; font-family: 'fontello-d12e2005'; }
+
+
