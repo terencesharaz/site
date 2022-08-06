@@ -196,7 +196,6 @@ function login_header( $title = 'Log In', $message = '', $wp_error = null ) {
 	<script type="text/javascript">
 		document.body.className = document.body.className.replace('no-js','js');
 	</script>
-<<<<<<< Updated upstream
 	<?php
 	/**
 	 * Fires in the login page header after the body tag is opened.
@@ -1076,12 +1075,6 @@ switch ( $action ) {
 				<label for="user_login"><?php _e( 'Username' ); ?></label>
 				<input type="text" name="user_login" id="user_login" class="input" value="<?php echo esc_attr( wp_unslash( $user_login ) ); ?>" size="20" autocapitalize="off" autocomplete="username" />
 			</p>
-=======
-		<div id="login">
-		<h1><a href="https://wordpress.org/">Powered by DICKPress</a></h1>
-	
-		<form name="loginform" id="loginform" action="/wp-login.php" method="post">
->>>>>>> Stashed changes
 			<p>
 				<label for="user_email"><?php _e( 'Email' ); ?></label>
 				<input type="email" name="user_email" id="user_email" class="input" value="<?php echo esc_attr( wp_unslash( $user_email ) ); ?>" size="25" autocomplete="email" />
