@@ -176,7 +176,7 @@ abstract class Base {
 	public function update_versions() {
 
 		// Retrieve the last migrated versions.
-		$last_migrated = get_option( static::MIGRATED_OPTION_NAME );
+		$last_migrated = get_option( static::MIGRATED_OPTION_NAME, [] );
 		$migrated      = array_merge( $last_migrated, $this->migrated );
 
 		/**
@@ -333,6 +333,7 @@ abstract class Base {
 		 */
 		$this->migrated = get_option( static::MIGRATED_OPTION_NAME );
 
+		// If option is an array, it means that it is already converted to the new format.
 		if ( is_array( $this->migrated ) ) {
 			return;
 		}
