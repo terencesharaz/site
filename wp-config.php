@@ -1,4 +1,8 @@
 <?php
+# BEGIN WP Cache by 10Web
+define( 'WP_CACHE', true );
+define( 'TWO_PLUGIN_DIR_CACHE', 'C:\wamp64\www\site\wp-content\plugins\tenweb-speed-optimizer/' );
+# END WP Cache by 10Web
 /** Enable W3 Total Cache */
 define('WP_CACHE', true); // Added by W3 Total Cache
 
@@ -86,6 +90,7 @@ define( 'WP_DEBUG', false );
 
 /* Add any custom values between this line and the "stop editing" line. */
 
+@ini_set('upload_max_size' , '256M' );
 
 
 /* That's all, stop editing! Happy publishing. */
